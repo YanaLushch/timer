@@ -1,0 +1,30 @@
+.timer{
+    position: relative;
+    display: inline-block;
+}
+.changable{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.start, .pause{   
+    border: none;
+    background: none;
+    color: red;
+    outline: inherit;
+    font-size: 60px;;
+}
+.duration {
+    -webkit-appearance: none;
+    border: none;
+    width: 200px;
+    text-align: center;
+    font-size: 80px;
+    outline: none;
+}
